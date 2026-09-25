@@ -1,11 +1,11 @@
 function Hero() {
   return (
     <section id="hero" className="section">
-      <h1>Your Name</h1>
+      <h1>Carlos Artiles</h1>
       <p className="subtitle">Aspiring Software Engineer</p>
       <p>
-        A short intro about your journey into software engineering — where
-        you started, what you're learning, and what you're building toward.
+        Currently working on a website and a mobile app. I have learned React, JS, SQL, Java, Springboot, REST API's, 
+        and refining my front end and back end capabilities.
       </p>
       <div className="hero-links">
         <a href="#projects">See my projects</a>

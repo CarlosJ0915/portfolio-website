@@ -3,10 +3,20 @@
 const projects = [
   {
     id: 1,
-    title: "Project Name",
+    title: "Book Website",
     description:
-      "One or two sentences on what this project does and the problem it solves.",
+      "This website is to promote my wifes book she is writing. It features a clean UI and interactive segments.",
     tech: ["React", "JavaScript", "CSS"],
+    image: null, // e.g. import projectImg from '../assets/images/project1.png' at the top, then use it here
+    liveUrl: "https://carlosj0915.github.io/loving-with-anxiety/",
+    repoUrl: "https://github.com/CarlosJ0915/loving-with-anxiety",
+  },
+  {
+    id: 2,
+    title: "Mobile App",
+    description:
+      "Creating a mobile app for planning vacations.",
+    tech: ["Flutter", "Dart"],
     image: null, // e.g. import projectImg from '../assets/images/project1.png' at the top, then use it here
     liveUrl: "",
     repoUrl: "",

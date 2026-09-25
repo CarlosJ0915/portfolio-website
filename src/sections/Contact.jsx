@@ -6,11 +6,11 @@ function Contact() {
         Interested in working together or just want to say hi? Reach out.
       </p>
       <div className="contact-links">
-        <a href="mailto:you@example.com">Email</a>
-        <a href="https://github.com/your-username" target="_blank" rel="noreferrer">
+        <a href="mailto:same.carlosartiles@gmail.com">Email</a>
+        <a href="https://github.com/CarlosJ0915" target="_blank" rel="noreferrer">
           GitHub
         </a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noreferrer">
+        <a href="https://linkedin.com/in/carlos-artiles-8b3105269" target="_blank" rel="noreferrer">
           LinkedIn
         </a>
       </div>
