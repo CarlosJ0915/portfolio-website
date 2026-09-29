@@ -1,8 +1,19 @@
 // Add one object per project you want to showcase.
 // image paths go in src/assets/images, then import + reference them below.
 const projects = [
+
   {
     id: 1,
+    title: "AI Resume Tailor",
+    description:
+    "Full-stack app that tailors a resume to a job description using the Gemini API. Upload a PDF or Word resume and get a rewritten version, a match score, matched skills, and feedback.",
+    tech: ["React", "Node.js", "Express", "Gemini API"],
+    image: null,
+    liveUrl: "",
+    repoUrl: "https://github.com/CarlosJ0915/resume-tailor-ai",
+  },
+  {
+    id: 2,
     title: "Book Website",
     description:
       "This website is to promote my wifes book she is writing. It features a clean UI and interactive segments.",
@@ -12,7 +23,7 @@ const projects = [
     repoUrl: "https://github.com/CarlosJ0915/loving-with-anxiety",
   },
   {
-    id: 2,
+    id: 3,
     title: "Mobile App",
     description:
       "Creating a mobile app for planning vacations.",
