@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "AI Resume Tailor",
     description:
-    "Full-stack app that tailors a resume to a job description using the Gemini API. Upload a PDF or Word resume and get a rewritten version, a match score, matched skills, and feedback.",
+    "Full-stack app that tailors a resume to a job description. An agent loop rewrites it, scores it with a separate judge call, and revises until it passes — returning the best-scoring version. Accepts PDF and Word uploads.",
     tech: ["React", "Node.js", "Express", "Gemini API"],
     image: null,
     liveUrl: "",
