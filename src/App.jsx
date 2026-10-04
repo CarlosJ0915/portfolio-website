@@ -3,6 +3,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
+import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import "./App.css";
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Projects />
         <Experience />
+        <Certifications />
         <Contact />
         <About />
       </main>

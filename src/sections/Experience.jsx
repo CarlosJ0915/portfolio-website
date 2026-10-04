@@ -1,6 +1,8 @@
 import experience from "../data/experience";
 
 function Experience() {
+  if (experience.length === 0) return null;
+
   return (
     <section id="experience" className="section">
       <h2>Experience</h2>
