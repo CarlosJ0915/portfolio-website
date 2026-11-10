@@ -19,7 +19,7 @@ const projects = [
     id: 2,
     title: "Book Website",
     description:
-      "This website is to promote my wifes book she is writing. It features a clean UI and interactive segments.",
+      "This website is to promote my wife's book she is writing. It features a clean UI and interactive segments.",
     tech: ["React", "JavaScript", "CSS"],
     image: bookWebsiteImg,
     liveUrl: "https://carlosj0915.github.io/loving-with-anxiety/",
