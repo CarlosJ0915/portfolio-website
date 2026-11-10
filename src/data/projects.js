@@ -11,7 +11,7 @@ const projects = [
     "Full-stack app that tailors a resume to a job description. An agent loop rewrites it, scores it with a separate judge call, and revises until it passes — returning the best-scoring version. Features drag-and-drop PDF and Word uploads, an animated match score with keyword and feedback breakdowns, and automatic dark mode.",
     tech: ["React", "Node.js", "Express", "Gemini API"],
     image: resumeTailorImg,
-    liveUrl: "",
+    liveUrl: "https://carlosj0915.github.io/resume-tailor-ai/",
     repoUrl: "https://github.com/CarlosJ0915/resume-tailor-ai",
   },
   {
