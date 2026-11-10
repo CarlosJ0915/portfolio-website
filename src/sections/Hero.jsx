@@ -4,8 +4,9 @@ function Hero() {
       <h1>Carlos Artiles</h1>
       <p className="subtitle">Software Engineer</p>
       <p>
-        Currently working on a website and a mobile app. I have learned React, JS, SQL, Java, Springboot, REST API's, 
-        and refining my front end and back end capabilities.
+        Full-stack developer working with React, JavaScript, Node.js and Express, plus Java, Spring Boot
+        and SQL on the back end. I build and deploy REST APIs and AI-powered apps with LLM APIs like
+        Gemini, and I'm currently building a mobile app with Flutter.
       </p>
       <div className="hero-links">
         <a href="#projects">See my projects</a>
