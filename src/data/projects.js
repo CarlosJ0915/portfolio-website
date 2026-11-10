@@ -1,14 +1,16 @@
 // Add one object per project you want to showcase.
 // image paths go in src/assets/images, then import + reference them below.
+import resumeTailorImg from "../assets/images/resume-tailor.jpg";
+
 const projects = [
 
   {
     id: 1,
     title: "AI Resume Tailor",
     description:
-    "Full-stack app that tailors a resume to a job description. An agent loop rewrites it, scores it with a separate judge call, and revises until it passes — returning the best-scoring version. Accepts PDF and Word uploads.",
+    "Full-stack app that tailors a resume to a job description. An agent loop rewrites it, scores it with a separate judge call, and revises until it passes — returning the best-scoring version. Features drag-and-drop PDF and Word uploads, an animated match score with keyword and feedback breakdowns, and automatic dark mode.",
     tech: ["React", "Node.js", "Express", "Gemini API"],
-    image: null,
+    image: resumeTailorImg,
     liveUrl: "",
     repoUrl: "https://github.com/CarlosJ0915/resume-tailor-ai",
   },
