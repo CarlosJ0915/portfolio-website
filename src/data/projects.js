@@ -2,6 +2,7 @@
 // image paths go in src/assets/images, then import + reference them below.
 import resumeTailorImg from "../assets/images/resume-tailor.jpg";
 import bookWebsiteImg from "../assets/images/book-website.jpg";
+import shoptalkImg from "../assets/images/shoptalk-ai.jpg";
 
 const projects = [
 
@@ -27,13 +28,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Mobile App",
+    title: "ShopTalk AI",
     description:
-      "Creating a mobile app for planning vacations.",
-    tech: ["Flutter", "Dart"],
-    image: null, // e.g. import projectImg from '../assets/images/project1.png' at the top, then use it here
-    liveUrl: "",
-    repoUrl: "",
+      "Bilingual voice agent built for the Miami AI Hackathon (Mel × ElevenLabs), where it earned an honorable mention. It answers an auto-repair shop's phone in English or Spanish, switches languages mid-call, checks real availability, and books an appointment only after explicit confirmation. Staff get a dashboard with the transcript, collected details, and a full tool audit trail.",
+    tech: ["Next.js", "TypeScript", "ElevenLabs", "Tailwind CSS"],
+    image: shoptalkImg,
+    liveUrl: "https://shoptalk-ai.vercel.app",
+    repoUrl: "https://github.com/CarlosJ0915/shoptalk-ai",
   },
 ];
 

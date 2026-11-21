@@ -3,6 +3,16 @@
 // is prefixed at render time so they keep working on GitHub Pages).
 const certifications = [
   {
+    id: 2,
+    title: "Miami AI Hackathon — Honorable Mention",
+    issuer: "Mel × ElevenLabs",
+    date: "November 2026",
+    description:
+      "Recognized for ShopTalk AI, a bilingual voice agent that answers an auto-repair shop's phone and books appointments.",
+    skills: ["ElevenLabs", "Voice AI", "AI Agents", "Next.js"],
+    image: "certificates/miami-ai-hackathon.jpg",
+  },
+  {
     id: 1,
     title: "Full-Stack Java Developer Course with Spring Boot 4 & React",
     issuer: "Udemy",

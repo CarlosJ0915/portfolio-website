@@ -25,9 +25,12 @@ function Certifications() {
             <div className="cert-body">
               <h3>{cert.title}</h3>
               <p className="cert-meta">
-                {cert.issuer} · {cert.date} · {cert.length}
+                {[cert.issuer, cert.date, cert.length].filter(Boolean).join(" · ")}
               </p>
-              <p className="cert-meta">Instructor: {cert.instructor}</p>
+              {cert.instructor && (
+                <p className="cert-meta">Instructor: {cert.instructor}</p>
+              )}
+              {cert.description && <p>{cert.description}</p>}
               <ul className="tech-list">
                 {cert.skills.map((skill) => (
                   <li key={skill}>{skill}</li>
@@ -39,8 +42,8 @@ function Certifications() {
                     Verify credential
                   </a>
                 )}
-                {cert.file && (
-                  <a href={asset(cert.file)} target="_blank" rel="noreferrer">
+                {(cert.file || cert.image) && (
+                  <a href={asset(cert.file || cert.image)} target="_blank" rel="noreferrer">
                     View certificate
                   </a>
                 )}
