@@ -6,7 +6,7 @@ function Hero() {
       <p>
         Full-stack developer working with React, JavaScript, Node.js and Express, plus Java, Spring Boot
         and SQL on the back end. I build and deploy REST APIs and AI-powered apps with LLM APIs like
-        Gemini, and I'm currently building a mobile app with Flutter.
+        Gemini.
       </p>
       <div className="hero-links">
         <a href="#projects">See my projects</a>
